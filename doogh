@@ -1,0 +1,20 @@
+
+
+factor=[]
+
+def doogh(mablagh:int,tedad:int)->list:
+    """سفارش
+
+    Args:
+        mablagh (int): مبلغ خرید
+        tedad (int): تعداد 
+
+    Returns:
+        list: صورتحساب
+    """
+
+    factor_dogh=mablagh*tedad*1.1
+    factor.append(factor_dogh)
+    print(factor_dogh)
+    return(factor_dogh)
+    
